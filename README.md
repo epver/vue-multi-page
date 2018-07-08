@@ -62,6 +62,7 @@ module.exports = {
 ## 多页配置注意事项
 - 每个多页入口单独使用 router，store 等 牢记
 - 公共组件不应涉及业务操作，如router-link，store 操作等
+- 页面访问 http[s]://localhost/[pages].html （如果有index模块服务器会自动定位index.html）
 - 每个单页其实就是一个独立的模块，你可以视作每个单页都是一个vue项目，只是使用了公共的 components
 
 ## 本文相关
