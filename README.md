@@ -59,6 +59,9 @@ module.exports = {
 相关目录形式
 ![目录形式](https://upload-images.jianshu.io/upload_images/1012159-5cc191a7e7fa6f5a.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
+编译后得到目录
+![编译后](https://upload-images.jianshu.io/upload_images/1012159-415070e78ad2b540.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
 ## 多页配置注意事项
 - 每个多页入口单独使用 router，store 等 牢记
 - 公共组件不应涉及业务操作，如router-link，store 操作等
